@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+</head>
+
+<body>
+
+    <!-- Navigation links go here -->
+    
+<div class="header">
+  <a href="#contact" class="logo"><div class="image-container">
+    <img src="logo1.png">EasyLearn</a>
+    </div>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work Experience</a>
+    <a href="#certificate">Certificatoin and Education</a>
+    <a href="#guide">Guide</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<!-- side bar -->
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="#home" class="w3-bar-item w3-button">Home</a>
+  <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+  <a href="#work" class="w3-bar-item w3-button">Work Experience</a>
+  <a href="#certificate" class="w3-bar-item w3-button">Certificatoin and Education</a>
+  <a href="#guide" class="w3-bar-item w3-button">Guide</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  <a href="#about" class="w3-bar-item w3-button">About</a>
+  
+</div>
+
+<div id="main">
+<div class="w3-main" style="margin-left:10px">
+
+<div class="w3-teal">
+   <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  </div>
+  </div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<div style="padding-left:20px">
+  <h1 style="text-align: center;">Teach Childeren to "How to Learn."</h1>
+  <img src="R.jpeg" width="1280" height="720">
+  <p></p>
+  
+</div>
+<!-- skills -->
+<div id="skills">
+  <h2>Skills</h2>
+<h3>Patience</h3>
+<p>Teachers of all levels should know their classrooms will represent a variety of cultural backgrounds, learning styles and intellectual abilities. Dedicated students will likely contribute more to class discussion and be more easygoing, but many students might present other challenges like 
+  turning in work late or causing behavioral disruptions.</p>
+<h3>Critical Thinking</h3>
+<p>
+  With strong critical thinking skills, teachers are able to consider the best interests of the students while also working within their institution’s goals and standards. Teachers of primary and secondary schools must also remain aware of parents’ expectations for learning and discipline and ensure
+   that the classroom is a safe and nurturing environment.
+</p>
+<h3>Communication</h3>
+<p>
+  Teachers communicate in a variety of ways, including verbal 
+  and written. Strong verbal communication means that teachers 
+  make their lesson material and expectations clear. They will present concepts in a way that students can understand. Teachers exhibit written communication skills when they give feedback on assignments and write progress reports for parents.
+
+</p>
+<h3>Computer Skills</h3>
+<p>
+  As classrooms continue to incorporate technology, computer skills are becoming more important for teachers to have. Besides tracking grades, educators may use computers to formulate lesson plans, worksheets,
+   study guides, tests and other deliverables.
+</p>
+
+
+</div>
+
+<!-- work -->
+<div id="work">
+  <h2>Working Experience</h2>
+  <h3>Schools and Institutions</h3>
+  <div class="container">
+    <div class="image">
+      <img src="school_badge.jpg" alt="School_badge" width="100" height="100">
+    </div>
+    
+      <div class="text">
+        <h4>
+          Worked at St. Louis School from 2002- 2006
+        </h4>
+      </div>
+  </div>
+  <div class= "container">
+    <div class="image">
+      <img src="institute.jpg" alt="Institute_badge" width="100" height="100">
+    
+    </div>
+    <div class="text">
+      <p>
+      Worked at Star Educational Institute from 2006- 2008
+      </p>
+      </div>
+  </div>
+</div>
+
+
+<!-- certificate -->
+<div id="certificate">
+<h2>Certificatoin and Education</h2>
+<h3>University</h3>
+<p>Bachelor of Arts Degree in University of Colombo.</p>
+<p>Master of Arts in Peradeniya University.</p>
+<div class="container">
+<div class ="image">
+  <img src="coursera.png" alt="coursera image" width="100" height="100">
+</div>
+<div class="text"><p>Certified Teacher in Coursera Cooperation.</p> </div>
+</div>
+
+
+</div>
+
+<!-- lesson -->
+<div id="guide">
+<h2>guide</h2>
+<p>Here Are some Guides before start the Courses.</p>
+<h3>Be Patience</h3>
+<p>You have to be Patience though all the lessons in here. Take down any note if you like.
+  However we will provide you a pdf regarding all the lessons in here. You can learn any method you like.
+</p>
+<h3>Ask Any Question</h3>
+<p>You can ask any question regarding ongoing lessons. If you want anymore explanations you can have arrange extra time as you preferred.</p>
+</div>
+<div id="about">
+  <h2>About Myself</h2>
+  <img src="teacher2.jpg">
+  <h3></h3>
+<p>I am <b>Anna Polina</b>. At my online kids teaching site, I am passionate about providing high-quality educational resources and interactive learning experiences for children. My mission is to make learning fun, engaging, and accessible to kids of all ages and abilities.</p>
+<h3>Parental Involvement</h3>
+<p>I value the role of parents in their children's education. I provide regular updates on their child's progress, offer resources for parents to support learning at home, and encourage open communication between parents, educators.</p>
+
+</div>
+<!-- slide -->
+<h2>
+Gallery
+</h2>
+<div class="slider-container">
+  <button id="prevButton">&#10094;</button>
+  <img id="sliderImage" src="image1.jpg" alt="Slider Image">
+  <button id="nextButton">&#10095;</button>
+</div>
+
+<!-- slidee -->
+<!-- contact me form -->
+<button onclick="openForm()">Contact Me Form</button>
+<div id="myForm" class="form-popup">
+  <form class="form-container" onsubmit="return validateForm()">
+    <h2 style="font-family: Arial, Helvetica, sans-serif;">Contact Me</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter your name" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter your email" id="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" placeholder="Enter your phone number" id="phone" required>
+
+    <label for="message">Message:</label>
+    <textarea placeholder="Enter your message" id="message" required></textarea>
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+
+
+<footer>
+<!-- Contact -->
+<div id="contact">
+  <h4 style="text-align: center;">Contact</h4>
+ 
+  <p>Name : Anna Polina</p>
+<p>Email : annap@gmail.com</p>
+<p>Contact : 0718292819</p>
+
+</div>
+<div class="imgv" id="imgv">
+  <a href="https://www.facebook.com">  
+    <div id="imgv"><img src="fb.png" alt="facebook logo" width="100px" height="50px" >
+    </div>
+    </a>
+    <a href="https://www.twitter.com">
+    <div id="imgv"><img src="twitter.png" alt="twitter" >
+    </div>
+  </a>
+  <a href="https://www.instagram.com">
+  <div id="imgv"><img src="instagram.png" alt="instagram" >
+  </div>
+</a>
+  
+</div>
+
+  </footer>
+
+  
+</body>
+
+<script>
+  //smooth scrolling
+  const links = document.querySelectorAll('a[href^="#"]');
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector(link.getAttribute('href'));
+      target.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  //image slides
+  
+const images = ['1.jpg', '2.jpg', '3.webp']; // Array of image URLs
+let currentIndex = 0;
+
+const sliderImage = document.getElementById('sliderImage');
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
+
+function showImage(index) {
+  sliderImage.src = images[index];
+}
+
+prevButton.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  showImage(currentIndex);
+});
+
+nextButton.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+});
+
+// Automatically cycle through images every 3 seconds
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+}, 3000);
+
+// Contact me form
+
+
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+  
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  
+    function validateForm() {
+      var email = document.getElementById("email").value;
+      var phone = document.getElementById("phone").value;
+  
+      // Email validation
+      var emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+      if (!email.match(emailRegex)) {
+        alert("Please enter a valid email address.");
+        return false;
+      }
+  
+      // Phone number validation
+      var phoneRegex = /^\d{10}$/;
+      if (!phone.match(phoneRegex)) {
+        alert("Please enter a valid 10-digit phone number.");
+        return false;
+      }
+  
+      // Additional validation or form submission logic can be added here
+  
+      alert("Contact Form submitted successfully!");
+      closeForm();
+      return false;
+    }
+
+</script>
+</html>

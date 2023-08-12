@@ -180,3 +180,21 @@ img {
 .form-container .cancel {
   background-color: #4d1a1a;
 }
+/* botton */
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-width: 300px;
+  
+}
+.button2 {padding: 12px 28px;
+          font-size: 16px;
+          position: relative;
+}

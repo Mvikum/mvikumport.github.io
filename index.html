@@ -21,6 +21,7 @@
   <div class="header-right">
     <a class="active" href="#home">Home</a>
     <a href="#skills">Skills</a>
+    <a href="project.php">Project</a>
     <a href="#work">Work Experience</a>
     <a href="#certificate">Certificatoin and Education</a>
     <a href="#guide">Guide</a>
@@ -72,6 +73,13 @@ function w3_close() {
   <p></p>
   
 </div>
+
+<button class="button1 button2"><a href="signup.html" >Sign Up</a>
+</button>
+<button class="button1 button2"><a href="loginnew.php">Log In</a>
+</button>
+
+
 <!-- skills -->
 <div id="skills">
   <h2>Skills</h2>
@@ -178,27 +186,25 @@ Gallery
 <!-- contact me form -->
 <button onclick="openForm()">Contact Me Form</button>
 <div id="myForm" class="form-popup">
-  <form class="form-container" onsubmit="return validateForm()">
+  <form class="form-container" action="form_file.php" method="POST" onsubmit="return validateForm()" >
     <h2 style="font-family: Arial, Helvetica, sans-serif;">Contact Me</h2>
 
     <label for="name">Name:</label>
-    <input type="text" placeholder="Enter your name" id="name" required>
+    <input type="text" placeholder="Enter your name" id="name" name="name" required>
 
     <label for="email">Email:</label>
-    <input type="email" placeholder="Enter your email" id="email" required>
+    <input type="email" placeholder="Enter your email" id="email" name="email" required>
 
     <label for="phone">Phone:</label>
-    <input type="tel" placeholder="Enter your phone number" id="phone" required>
+    <input type="tel" placeholder="Enter your phone number" id="phone" name="phone" required>
 
     <label for="message">Message:</label>
-    <textarea placeholder="Enter your message" id="message" required></textarea>
-
-    <button type="submit" class="btn">Submit</button>
+    <textarea placeholder="Enter your message" id="message" name="message" required></textarea>
+    <input type='submit' value='submit'>
+    <!-- <button type="submit" class="btn">Submit</button> -->
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
-
-
 
 
 
@@ -304,9 +310,9 @@ setInterval(() => {
   
       // Additional validation or form submission logic can be added here
   
-      alert("Contact Form submitted successfully!");
-      closeForm();
-      return false;
+      // alert("Contact Form submitted successfully!");
+      // closeForm();
+      // return false;
     }
 
 </script>
